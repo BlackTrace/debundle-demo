@@ -1,0 +1,11 @@
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"goods"},[_c('div',{staticClass:"vux-1px-b title"},[_c('p',{staticClass:"name"},[_vm._v("商品名称："+_vm._s(_vm.goods.goodsName))]),_vm._v(" "),_c('p',{staticClass:"price"},[_vm._v("市场参考价格："+_vm._s(_vm.goods.price/100)+"元")])]),_vm._v(" "),_c('pre',{staticClass:"desc",domProps:{"innerHTML":_vm._s(_vm.goods.describtion)}}),_vm._v(" "),_c('div',{staticClass:"bottom vux-1px-t"},[_c('div',{staticClass:"left vux-1px-r"},[_vm._v("兑换积分 "),_c('span',[_vm._v(_vm._s(_vm.goods.costPoint)+"分")])]),_vm._v(" "),_c('div',{staticClass:"right",on:{"click":function($event){return _vm.toExchange()}}},[_vm._v("立即兑换")])])])}
+var staticRenderFns = []
+var esExports = { render: render, staticRenderFns: staticRenderFns }
+export default esExports
+
+
+//////////////////
+// WEBPACK FOOTER
+// ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-26f7e8d0","hasScoped":false,"transformToRequire":{"video":["src","poster"],"source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vux-loader/src/before-template-compiler-loader.js!./node_modules/vux-loader/src/template-loader.js!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/pages/integral/goods.vue
+// module id = null
+// module chunks = 

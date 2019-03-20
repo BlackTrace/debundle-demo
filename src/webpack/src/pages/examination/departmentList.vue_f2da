@@ -1,0 +1,11 @@
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"examine_departments"},[_vm._m(0),_vm._v(" "),( _vm.departmentList.length!=0)?_c('ul',_vm._l((_vm.departmentList),function(item,index){return _c('li',{},[_c('p',{staticClass:"name"},[_vm._v(_vm._s(item.department)+"  "+_vm._s(item.name))]),_vm._v(" "),_c('p',[_vm._v("地址："+_vm._s(item.address))]),_vm._v(" "),_c('a',{attrs:{"href":'tel:'+ item.tel}},[_vm._v("电话："+_vm._s(item.tel))]),_vm._v(" "),(item.projectTips && item.projectTips!='')?_c('p',[_vm._v("可约项目："+_vm._s(item.projectTips))]):_vm._e()])}),0):_vm._e(),_vm._v(" "),(_vm.departmentList.length==0)?_c('div',{staticClass:"empty"},[_vm._m(1)]):_vm._e()])}
+var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"top"},[_c('img',{staticClass:"logo",attrs:{"src":require("../../assets/examination/logo.png")}}),_vm._v(" "),_c('span',[_vm._v("可预约门诊列表")])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"content"},[_c('img',{attrs:{"src":require("../../assets/me_empty.png")}}),_vm._v(" "),_c('p',[_vm._v("暂无可预约门诊")])])}]
+var esExports = { render: render, staticRenderFns: staticRenderFns }
+export default esExports
+
+
+//////////////////
+// WEBPACK FOOTER
+// ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-79b56456","hasScoped":false,"transformToRequire":{"video":["src","poster"],"source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vux-loader/src/before-template-compiler-loader.js!./node_modules/vux-loader/src/template-loader.js!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/pages/examination/departmentList.vue
+// module id = null
+// module chunks = 

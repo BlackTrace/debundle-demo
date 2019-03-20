@@ -1,0 +1,17 @@
+{
+  "name": "debundle-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bundle.js",
+  "dependencies": {
+    "debundle": "^0.5.4",
+    "sourcemap-rewind": "^0.1.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "debundle": "debundle -i bundle.js -o dist/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

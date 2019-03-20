@@ -1,0 +1,11 @@
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"ins_detail"},[_c('p',{staticClass:"tips"},[_vm._v("数据来源于中国平安，通过“中国平安”官网亦可查询")]),_vm._v(" "),_c('div',{staticClass:"info_box"},[_c('div',{staticClass:"top"},[_vm._v("保单详情")]),_vm._v(" "),_c('div',{staticClass:"info"},[_c('p',[_vm._v("订单号："+_vm._s(_vm.insDetail.orderNo))]),_vm._v(" "),_c('p',[_vm._v("下单日期："+_vm._s(_vm.insDetail.orderDate))]),_vm._v(" "),_c('p',[_vm._v("产品代码："+_vm._s(_vm.insDetail.productNo))]),_vm._v(" "),_c('p',[_vm._v("产品名称："+_vm._s(_vm.insDetail.productName))]),_vm._v(" "),_c('p',[_vm._v("订单状态："+_vm._s(_vm.insDetail.state))]),_vm._v(" "),_c('p',[_vm._v("投保单号："+_vm._s(_vm.insDetail.applyNo))]),_vm._v(" "),_c('p',[_vm._v("保单号："+_vm._s(_vm.insDetail.polNo))]),_vm._v(" "),_c('p',[_vm._v("承保日期："+_vm._s(_vm.insDetail.acceptDate))]),_vm._v(" "),_c('p',[_vm._v("生效日期："+_vm._s(_vm.insDetail.effDate))]),_vm._v(" "),_c('p',[_vm._v("满期日期："+_vm._s(_vm.insDetail.matuDate))]),_vm._v(" "),_c('p',[_vm._v("保费："+_vm._s(_vm.insDetail.price))]),_vm._v(" "),(_vm.insDetail.remark && _vm.insDetail.remark!='')?_c('p',[_vm._v("备注字段："+_vm._s(_vm.insDetail.remark))]):_vm._e(),_vm._v(" "),(_vm.insDetail.orderStatus=='04')?_c('p',[_vm._v("退保日期："+_vm._s(_vm.insDetail.withdrawDate))]):_vm._e(),_vm._v(" "),_c('p',[_vm._v("投保人姓名："+_vm._s(_vm.insDetail.appName))]),_vm._v(" "),_c('p',[_vm._v("投保人手机号："+_vm._s(_vm.insDetail.appMobile))]),_vm._v(" "),_c('p',[_vm._v("被保人列表：")]),_vm._v(" "),_vm._l((_vm.insDetail.orderInsLists),function(people,index){return _c('div',{key:people.id},[_c('p',[_vm._v("被保人姓名："+_vm._s(people.insName))]),_vm._v(" "),_c('p',[_vm._v("与投保人关系："+_vm._s(people.relationText))])])})],2)])])}
+var staticRenderFns = []
+var esExports = { render: render, staticRenderFns: staticRenderFns }
+export default esExports
+
+
+//////////////////
+// WEBPACK FOOTER
+// ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-05de334a","hasScoped":false,"transformToRequire":{"video":["src","poster"],"source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vux-loader/src/before-template-compiler-loader.js!./node_modules/vux-loader/src/template-loader.js!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/pages/insurance/insDetail.vue
+// module id = null
+// module chunks = 

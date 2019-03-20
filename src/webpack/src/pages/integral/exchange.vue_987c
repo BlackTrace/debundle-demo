@@ -1,0 +1,11 @@
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"exchange"},[_c('div',{staticClass:"cell vux-1px-b cell_1"},[_c('div',{staticClass:"cell_item name"},[_vm._v(_vm._s(_vm.goods.goodsName))]),_vm._v(" "),_c('div',{staticClass:"cell_item flex integral"},[_vm._v("需要积分："+_vm._s(_vm.goods.costPoint)+"分")])]),_vm._v(" "),_c('div',{staticClass:"cell  vux-1px-b cell_2"},[_c('div',{staticClass:"cell_item w250"},[_vm._v("充值手机号码：")]),_vm._v(" "),_c('div',{staticClass:"cell_item flex input"},[_c('input',{directives:[{name:"model",rawName:"v-model",value:(_vm.upMobile),expression:"upMobile"}],attrs:{"type":"tel","placeholder":"请输入充值手机号码"},domProps:{"value":(_vm.upMobile)},on:{"input":function($event){if($event.target.composing){ return; }_vm.upMobile=$event.target.value}}})])]),_vm._v(" "),_c('a',{staticClass:"btn",attrs:{"href":"javascript:void(0)"},on:{"click":function($event){return _vm.exchange()}}},[_vm._v("立即兑换")])])}
+var staticRenderFns = []
+var esExports = { render: render, staticRenderFns: staticRenderFns }
+export default esExports
+
+
+//////////////////
+// WEBPACK FOOTER
+// ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-5b2dad3b","hasScoped":false,"transformToRequire":{"video":["src","poster"],"source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vux-loader/src/before-template-compiler-loader.js!./node_modules/vux-loader/src/template-loader.js!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/pages/integral/exchange.vue
+// module id = null
+// module chunks = 

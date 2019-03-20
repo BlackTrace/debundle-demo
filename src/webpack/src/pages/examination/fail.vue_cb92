@@ -1,0 +1,11 @@
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _vm._m(0)}
+var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"examine_fail"},[_c('div',{staticClass:"top"},[_c('img',{staticClass:"logo",attrs:{"src":require("../../assets/examination/logo.png")}}),_vm._v(" "),_c('span',[_vm._v("体检下单预约进展查询")])]),_vm._v(" "),_c('div',{staticClass:"info_box"},[_c('img',{attrs:{"src":require("../../assets/examination/none.png")}}),_vm._v(" "),_c('p',{staticClass:"big"},[_vm._v("抱歉，系统暂时没有"),_c('br'),_vm._v("您的预约信息")]),_vm._v(" "),_c('p',{staticStyle:{"padding-bottom":"0.5rem"}},[_vm._v("下单后，平台会在2个工作日内录入您的预约信息，"),_c('span',{staticStyle:{"color":"#FF7FC0"}},[_vm._v("请在下单后的2个工作日后再来查询。")])]),_vm._v(" "),_c('p',[_vm._v("如超过2个工作日未查询到预约信息，请到约苗公众号咨询“在线客服”，第一时间为您处理。")])])])}]
+var esExports = { render: render, staticRenderFns: staticRenderFns }
+export default esExports
+
+
+//////////////////
+// WEBPACK FOOTER
+// ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-0b0497cd","hasScoped":false,"transformToRequire":{"video":["src","poster"],"source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vux-loader/src/before-template-compiler-loader.js!./node_modules/vux-loader/src/template-loader.js!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/pages/examination/fail.vue
+// module id = null
+// module chunks = 

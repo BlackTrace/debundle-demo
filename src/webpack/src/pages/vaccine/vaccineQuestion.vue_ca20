@@ -1,0 +1,11 @@
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"vacc_question"},[_c('h2',[_vm._v("常见咨询")]),_vm._v(" "),_c('div',{staticClass:"content_wrap"},[_c('h3',[_vm._v(_vm._s(_vm.question.title))]),_vm._v(" "),_c('p',{staticClass:"content"},[_c('pre',{domProps:{"innerHTML":_vm._s(_vm.question.describtion)}})])])])}
+var staticRenderFns = []
+var esExports = { render: render, staticRenderFns: staticRenderFns }
+export default esExports
+
+
+//////////////////
+// WEBPACK FOOTER
+// ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-23359c06","hasScoped":false,"transformToRequire":{"video":["src","poster"],"source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vux-loader/src/before-template-compiler-loader.js!./node_modules/vux-loader/src/template-loader.js!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/pages/vaccine/vaccineQuestion.vue
+// module id = null
+// module chunks = 

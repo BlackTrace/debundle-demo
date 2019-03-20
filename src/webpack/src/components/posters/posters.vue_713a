@@ -1,0 +1,11 @@
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"posters"},[_c('img',{staticClass:"poster",attrs:{"src":require("../../assets/integral_bg2.png")}}),_vm._v(" "),_c('div',{staticClass:"share_btn",on:{"click":function($event){_vm.showShare=true}}},[_c('p',[_vm._v("邀请好友 优先登记")]),_vm._v(" "),_c('p',{staticClass:"s"},[_vm._v("一个朋友登记=100积分")])]),_vm._v(" "),_c('div',{directives:[{name:"show",rawName:"v-show",value:(_vm.showShare),expression:"showShare"}],staticClass:"share_wrap",on:{"click":_vm.hideShare}},[_c('img',{attrs:{"src":require("../../assets/share.png"),"alt":"点击右上角分享到朋友圈"}})])])}
+var staticRenderFns = []
+var esExports = { render: render, staticRenderFns: staticRenderFns }
+export default esExports
+
+
+//////////////////
+// WEBPACK FOOTER
+// ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-4a09d46d","hasScoped":false,"transformToRequire":{"video":["src","poster"],"source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vux-loader/src/before-template-compiler-loader.js!./node_modules/vux-loader/src/template-loader.js!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/components/posters/posters.vue
+// module id = null
+// module chunks = 

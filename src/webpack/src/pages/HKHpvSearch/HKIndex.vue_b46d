@@ -1,0 +1,11 @@
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"hk_index"},[_vm._m(0),_vm._v(" "),_c('group',{attrs:{"label-width":"1.2rem","label-margin-right":"0.2rem","label-align":"left","gutter":"0"}},[_c('x-input',{attrs:{"title":"身份证","name":"idCard","placeholder":"输入预约人身份证号码"},model:{value:(_vm.idCard),callback:function ($$v) {_vm.idCard=$$v},expression:"idCard"}})],1),_vm._v(" "),_c('group',{attrs:{"label-width":"1.2rem","label-margin-right":"0.2rem","label-align":"left","gutter":"0"}},[_c('popup-picker',{attrs:{"title":'疫苗',"data":_vm.vaccines,"placeholder":'请选择疫苗',"value-text-align":"left"},on:{"on-change":_vm.selectVaccine},model:{value:(_vm.vaccCode),callback:function ($$v) {_vm.vaccCode=$$v},expression:"vaccCode"}})],1),_vm._v(" "),_vm._m(1),_vm._v(" "),_c('a',{staticClass:"blue_btn",attrs:{"href":"javascript:void(0)"},on:{"click":_vm.submit}},[_vm._v("查询")])],1)}
+var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"top"},[_c('img',{staticClass:"logo",attrs:{"src":require("../../assets/HKHpvSearch/icon_logo.png")}}),_vm._v(" "),_c('h2',[_vm._v("香港疫苗预约查询")])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"tips"},[_c('p',[_vm._v("提示：请务必按照预约成功时间带上身份证前往门诊接种，"),_c('span',{staticStyle:{"font-weight":"bold","color":"#FF7FC0"}},[_vm._v("预约成功后，不支持退预付款/修改预约时间。")])]),_vm._v(" "),_c('p',{staticStyle:{"padding-top":"0.1rem"}},[_vm._v("*下单后2-3个工作日显示预约进度。如超过4个工作日还未查询到，请联系小助手微信：yuemiao2019帮您查看。")])])}]
+var esExports = { render: render, staticRenderFns: staticRenderFns }
+export default esExports
+
+
+//////////////////
+// WEBPACK FOOTER
+// ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-48c9c026","hasScoped":false,"transformToRequire":{"video":["src","poster"],"source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vux-loader/src/before-template-compiler-loader.js!./node_modules/vux-loader/src/template-loader.js!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/pages/HKHpvSearch/HKIndex.vue
+// module id = null
+// module chunks = 

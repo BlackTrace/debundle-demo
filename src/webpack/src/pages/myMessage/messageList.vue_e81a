@@ -1,0 +1,11 @@
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"message_list"},[(_vm.messageList.length!=0)?_c('scroller',{ref:"my_scroller",attrs:{"on-infinite":_vm.infinite,"no-data-text":"没有更多数据啦~"}},[_c('ul',_vm._l((_vm.messageList),function(m,index){return _c('li',{staticClass:"vux-1px-b",on:{"click":function($event){return _vm.toMessage(m.id)}}},[_c('div',[_c('h3',{staticClass:"title"},[_vm._v(_vm._s(m.title))]),_vm._v(" "),(m.readStatus==0)?_c('badge'):_vm._e()],1),_vm._v(" "),_c('p',{staticClass:"time"},[_vm._v("时间："+_vm._s(m.sendTime))])])}),0),_vm._v(" "),_c('div',{staticStyle:{"height":"1px"}})]):_vm._e(),_vm._v(" "),(_vm.messageList.length==0)?_c('div',{staticClass:"no_mes"},[_c('img',{attrs:{"src":require("../../assets/me_empty.png"),"alt":"暂无信息"}}),_vm._v(" "),_c('p',[_vm._v("暂无通知数据")])]):_vm._e()],1)}
+var staticRenderFns = []
+var esExports = { render: render, staticRenderFns: staticRenderFns }
+export default esExports
+
+
+//////////////////
+// WEBPACK FOOTER
+// ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-f2aae736","hasScoped":false,"transformToRequire":{"video":["src","poster"],"source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vux-loader/src/before-template-compiler-loader.js!./node_modules/vux-loader/src/template-loader.js!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/pages/myMessage/messageList.vue
+// module id = null
+// module chunks = 

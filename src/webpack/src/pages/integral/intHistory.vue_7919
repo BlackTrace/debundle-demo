@@ -1,0 +1,11 @@
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"integral_history"},[(_vm.awardList.length!=0)?_c('scroller',{ref:"my_scroller",attrs:{"on-infinite":_vm.infinite,"no-data-text":"没有更多数据啦~"}},[_c('div',{staticStyle:{"height":"3.18rem"}}),_vm._v(" "),_c('ul',{staticClass:"friends_list"},_vm._l((_vm.awardList),function(award,index){return _c('li',{staticClass:"vux-1px-b"},[_c('p',{staticClass:"title"},[_vm._v("获得积分"+_vm._s(award.points))]),_vm._v(" "),_c('div',{staticClass:"flex_box"},[_c('p',[_vm._v(_vm._s(award.createTime)+"  好友"+_vm._s(award.registerName)+" "+_vm._s(award.registerMobile))]),_vm._v(" "),_c('span',{staticClass:"state"},[_vm._v("已登记")])])])}),0)]):_vm._e(),_vm._v(" "),(_vm.awardList.length==0)?_c('div',{staticClass:"no"},[_c('img',{attrs:{"src":require("../../assets/me_empty.png")}}),_vm._v(" "),_c('p',[_vm._v("暂无积分详情")]),_vm._v(" "),_c('p',{staticClass:"pink"},[_vm._v("“宫颈癌是首个可以预防的癌症”")])]):_vm._e(),_vm._v(" "),_c('a',{staticClass:"btn",attrs:{"href":"javascript:void(0)"},on:{"click":function($event){_vm.showShare=true}}},[_vm._v("邀请更多好友 预防癌症")]),_vm._v(" "),_c('div',{directives:[{name:"show",rawName:"v-show",value:(_vm.showShare),expression:"showShare"}],staticClass:"share_wrap",on:{"click":_vm.hideShare}},[_c('img',{attrs:{"src":require("../../assets/share.png"),"alt":"点击右上角分享到朋友圈"}})])],1)}
+var staticRenderFns = []
+var esExports = { render: render, staticRenderFns: staticRenderFns }
+export default esExports
+
+
+//////////////////
+// WEBPACK FOOTER
+// ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-11e90d94","hasScoped":false,"transformToRequire":{"video":["src","poster"],"source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vux-loader/src/before-template-compiler-loader.js!./node_modules/vux-loader/src/template-loader.js!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/pages/integral/intHistory.vue
+// module id = null
+// module chunks = 

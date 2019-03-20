@@ -1,0 +1,11 @@
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"my_alert"},[_c('x-dialog',{attrs:{"mask-z-index":"5000"},on:{"on-hide":function($event){return _vm.$emit('on-hide')},"on-show":function($event){return _vm.$emit('on-show')}},model:{value:(_vm.showValue),callback:function ($$v) {_vm.showValue=$$v},expression:"showValue"}},[_c('img',{staticClass:"close_btn",attrs:{"src":require("../../assets/popups_close.png")},on:{"click":function($event){_vm.showValue=false}}}),_vm._v(" "),_c('div',{staticClass:"content"},[_c('h3',{domProps:{"innerHTML":_vm._s(_vm.title||'支付说明')}}),_vm._v(" "),_c('pre',{domProps:{"innerHTML":_vm._s(_vm.content)}})])])],1)}
+var staticRenderFns = []
+var esExports = { render: render, staticRenderFns: staticRenderFns }
+export default esExports
+
+
+//////////////////
+// WEBPACK FOOTER
+// ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-69efd21f","hasScoped":false,"transformToRequire":{"video":["src","poster"],"source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vux-loader/src/before-template-compiler-loader.js!./node_modules/vux-loader/src/template-loader.js!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/components/myAlert/myAlert.vue
+// module id = null
+// module chunks = 

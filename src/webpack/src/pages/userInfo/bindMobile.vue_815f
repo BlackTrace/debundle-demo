@@ -1,0 +1,11 @@
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"bindMobile"},[_c('img',{staticClass:"tips_img",attrs:{"src":require("../../assets/Bind.png"),"alt":"绑定手机号码"}}),_vm._v(" "),_c('p',{staticClass:"tips"},[_vm._v("输入新的手机号码绑定微信")]),_vm._v(" "),_c('div',{staticClass:"form"},[_c('group',{attrs:{"label-width":"1.6rem","label-margin-right":"0.3rem","label-align":"left"}},[_c('x-input',{attrs:{"title":"手机号码","name":"mobile","placeholder":"填写手机号码","keyboard":"number","is-type":"china-mobile","required":""},model:{value:(_vm.info.mobile),callback:function ($$v) {_vm.$set(_vm.info, "mobile", $$v)},expression:"info.mobile"}}),_vm._v(" "),_c('x-input',{attrs:{"title":"验证码","name":"code","placeholder":"输入验证码","required":"","type":"tel"},model:{value:(_vm.info.validateCode),callback:function ($$v) {_vm.$set(_vm.info, "validateCode", $$v)},expression:"info.validateCode"}},[_c('a',{staticClass:"vCodeBtn",class:[_vm.valiState.mobileOk&&!_vm.valiState.timeCount ? _vm.vCode.ableClass : _vm.vCode.unableClass],attrs:{"slot":"right","href":"javascript:void(0)"},on:{"click":_vm.getVcode},slot:"right"},[_vm._v(_vm._s(_vm.vCode.text))])])],1)],1),_vm._v(" "),(!_vm.user.mobile || _vm.user.mobile=='')?_c('a',{staticClass:"blue_btn",attrs:{"href":"javascript:void(0)"},on:{"click":_vm.callBindMobile}},[_vm._v("绑定手机")]):_c('a',{staticClass:"blue_btn",attrs:{"href":"javascript:void(0)"},on:{"click":_vm.changeUserMobile}},[_vm._v("修改手机")])])}
+var staticRenderFns = []
+var esExports = { render: render, staticRenderFns: staticRenderFns }
+export default esExports
+
+
+//////////////////
+// WEBPACK FOOTER
+// ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-6dfab032","hasScoped":false,"transformToRequire":{"video":["src","poster"],"source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vux-loader/src/before-template-compiler-loader.js!./node_modules/vux-loader/src/template-loader.js!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/pages/userInfo/bindMobile.vue
+// module id = null
+// module chunks = 

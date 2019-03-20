@@ -1,0 +1,11 @@
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _vm._m(0)}
+var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"hk_fail"},[_c('div',{staticClass:"top"},[_c('img',{attrs:{"src":require("../../assets/HKHpvSearch/icon_img2.png")}}),_vm._v(" "),_c('h2',[_vm._v("系统暂无您的预约成功消息")])]),_vm._v(" "),_c('div',{staticClass:"info"},[_c('p',{staticStyle:{"padding-bottom":"0.5rem"}},[_vm._v("下单后，平台会在"),_c('span',{staticClass:"red"},[_vm._v("2-3个工作日给您录入，请在三个工作日后前来查询。")])])])])}]
+var esExports = { render: render, staticRenderFns: staticRenderFns }
+export default esExports
+
+
+//////////////////
+// WEBPACK FOOTER
+// ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-261f2225","hasScoped":false,"transformToRequire":{"video":["src","poster"],"source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vux-loader/src/before-template-compiler-loader.js!./node_modules/vux-loader/src/template-loader.js!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/pages/HKHpvSearch/HKFail.vue
+// module id = null
+// module chunks = 

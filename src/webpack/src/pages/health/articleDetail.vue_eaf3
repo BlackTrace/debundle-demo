@@ -1,0 +1,11 @@
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"health_article"},[_c('h2',[_vm._v(_vm._s(_vm.article.title))]),_vm._v(" "),_c('div',{staticClass:"info"},[_c('p',[_c('span',{staticStyle:{"padding-right":"0.5rem"}},[_vm._v("阅读数："+_vm._s(_vm.article.allReadNum))]),_c('span',[_vm._v("点赞数："+_vm._s(_vm.article.allLikeNum))])]),_vm._v(" "),_c('p',{staticClass:"date"},[_vm._v("发布于"+_vm._s(_vm.article.createTime))])]),_vm._v(" "),(_vm.article.content && _vm.article.content!='')?_c('pre',{domProps:{"innerHTML":_vm._s(_vm.article.content)}}):_vm._e(),_vm._v(" "),_c('div',{staticClass:"zan"},[_c('span',{staticClass:"img animated",class:{'liked':_vm.isLike,'bounceIn':_vm.isLike && _vm.clicked},on:{"click":function($event){return _vm.like()}}}),_vm._v(" "),_c('p',[_vm._v(_vm._s(_vm.article.allLikeNum)+"人点赞")])])])}
+var staticRenderFns = []
+var esExports = { render: render, staticRenderFns: staticRenderFns }
+export default esExports
+
+
+//////////////////
+// WEBPACK FOOTER
+// ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-6b7dcfcf","hasScoped":false,"transformToRequire":{"video":["src","poster"],"source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vux-loader/src/before-template-compiler-loader.js!./node_modules/vux-loader/src/template-loader.js!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/pages/health/articleDetail.vue
+// module id = null
+// module chunks = 

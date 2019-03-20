@@ -1,0 +1,11 @@
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('tabbar',{staticClass:"my_tabbar"},[_c('tabbar-item',{attrs:{"selected":_vm.selected=='home',"link":"/home"}},[_c('img',{attrs:{"slot":"icon","src":require("../../assets/tab_appointment_s.png")},slot:"icon"}),_vm._v(" "),_c('img',{attrs:{"slot":"icon-active","src":require("../../assets/tab_appointment_d.png")},slot:"icon-active"}),_vm._v(" "),_c('span',{attrs:{"slot":"label"},slot:"label"},[_vm._v("首页")])]),_vm._v(" "),(_vm.messageNum!=0)?_c('tabbar-item',{attrs:{"selected":_vm.selected=='mine',"link":"/mine","badge":_vm.messageNum}},[_c('img',{attrs:{"slot":"icon","src":require("../../assets/tab_me_d.png")},slot:"icon"}),_vm._v(" "),_c('img',{attrs:{"slot":"icon-active","src":require("../../assets/tab_me_s.png")},slot:"icon-active"}),_vm._v(" "),_c('span',{attrs:{"slot":"label"},slot:"label"},[_vm._v("我的")])]):_vm._e(),_vm._v(" "),(_vm.messageNum==0)?_c('tabbar-item',{attrs:{"selected":_vm.selected=='mine',"link":"/mine"}},[_c('img',{attrs:{"slot":"icon","src":require("../../assets/tab_me_d.png")},slot:"icon"}),_vm._v(" "),_c('img',{attrs:{"slot":"icon-active","src":require("../../assets/tab_me_s.png")},slot:"icon-active"}),_vm._v(" "),_c('span',{attrs:{"slot":"label"},slot:"label"},[_vm._v("我的")])]):_vm._e()],1)}
+var staticRenderFns = []
+var esExports = { render: render, staticRenderFns: staticRenderFns }
+export default esExports
+
+
+//////////////////
+// WEBPACK FOOTER
+// ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-2133eb54","hasScoped":false,"transformToRequire":{"video":["src","poster"],"source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vux-loader/src/before-template-compiler-loader.js!./node_modules/vux-loader/src/template-loader.js!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/components/comFooter/comFooter.vue
+// module id = null
+// module chunks = 

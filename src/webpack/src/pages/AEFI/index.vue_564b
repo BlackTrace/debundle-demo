@@ -1,0 +1,11 @@
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"AEFI_index"},[_c('div',{staticClass:"main"},[_vm._m(0),_vm._v(" "),_c('div',{staticClass:"form"},[_c('ul',_vm._l((_vm.reactions),function(reaction,index){return _c('li',{class:{'checked':reaction.state==1, 'unable':reaction.state==2},on:{"click":function($event){return _vm.select(reaction)}}},[_vm._v(_vm._s(reaction.content))])}),0),_vm._v(" "),_c('div',{staticClass:"other"},[_c('p',[_vm._v("其他")]),_vm._v(" "),_c('textarea',{directives:[{name:"model",rawName:"v-model",value:(_vm.otherReaction),expression:"otherReaction"}],attrs:{"rows":"4","placeholder":"其他症状……"},domProps:{"value":(_vm.otherReaction)},on:{"input":function($event){if($event.target.composing){ return; }_vm.otherReaction=$event.target.value}}})]),_vm._v(" "),_c('group',{staticClass:"time"},[_c('datetime',{attrs:{"title":"身体出现不适时间","start-date":_vm.dateRange.start || '2016-01-01',"end-date":_vm.dateRange.end},model:{value:(_vm.date),callback:function ($$v) {_vm.date=$$v},expression:"date"}})],1)],1)]),_vm._v(" "),_c('a',{staticClass:"blue_btn",attrs:{"href":"javascript:void(0)"},on:{"click":_vm.submit}},[_vm._v("提交")])])}
+var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"top"},[_c('p',[_vm._v("接种完，您是否感觉身体有所不适，如有，请选择不适症状（可多选）。")]),_vm._v(" "),_c('p',{staticClass:"tips"},[_vm._v("注：接种完局部红肿，疼痛等症状会在一周内自行缓解，如情况严重，请与门诊接种医生联系。")])])}]
+var esExports = { render: render, staticRenderFns: staticRenderFns }
+export default esExports
+
+
+//////////////////
+// WEBPACK FOOTER
+// ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-a3809260","hasScoped":false,"transformToRequire":{"video":["src","poster"],"source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vux-loader/src/before-template-compiler-loader.js!./node_modules/vux-loader/src/template-loader.js!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/pages/AEFI/index.vue
+// module id = null
+// module chunks = 

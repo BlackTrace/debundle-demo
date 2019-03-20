@@ -1,0 +1,11 @@
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"depa_detail"},[_c('div',{staticClass:"img",style:({backgroundImage: 'url(' + _vm.department.imgUrl + ')'})}),_vm._v(" "),_c('div',{staticClass:"section_1"},[_c('p',{staticClass:"name"},[_vm._v(_vm._s(_vm.department.name))]),_vm._v(" "),(_vm.department.tel && _vm.department.tel!='')?_c('a',{staticClass:"tel",attrs:{"href":("tel:"+_vm.department.tel)}},[_vm._v("电话："+_vm._s(_vm.department.tel))]):_vm._e(),_vm._v(" "),_c('p',{staticClass:"address",on:{"click":_vm.openLocation}},[_vm._v("地址："+_vm._s(_vm.department.address))]),_vm._v(" "),(_vm.department.worktimeDesc && _vm.department.worktimeDesc!='')?_c('p',{staticClass:"worktimes"},[_vm._v("服务时间："+_vm._s(_vm.department.worktimeDesc))]):_vm._e(),_vm._v(" "),(_vm.department.certificateUrl && _vm.department.certificateUrl!='')?_c('a',{staticClass:"license_btn",attrs:{"href":"javascript:void(0)"},on:{"click":_vm.viewLicense}},[_vm._v("查看门诊资质")]):_vm._e()]),_vm._v(" "),(_vm.department.descrition && _vm.department.descrition!='')?_c('div',{staticClass:"section_2"},[_c('p',{staticClass:"title"},[_vm._v("简介")]),_vm._v(" "),_c('p',[_vm._v(_vm._s(_vm.department.descrition))])]):_vm._e()])}
+var staticRenderFns = []
+var esExports = { render: render, staticRenderFns: staticRenderFns }
+export default esExports
+
+
+//////////////////
+// WEBPACK FOOTER
+// ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-43bf0456","hasScoped":false,"transformToRequire":{"video":["src","poster"],"source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vux-loader/src/before-template-compiler-loader.js!./node_modules/vux-loader/src/template-loader.js!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/pages/department/depaDetail.vue
+// module id = null
+// module chunks = 

@@ -1,0 +1,11 @@
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"integral_detail"},[_c('div',{staticClass:"fixed"},[_c('div',{staticClass:"banner"},[_c('div',{staticClass:"integral"},[_vm._v(_vm._s(_vm.awardPoints)),_c('span',{staticClass:"fz40"},[_vm._v(" 积分")])]),_vm._v(" "),_c('div',{staticClass:"psrl"},[_c('p',{staticClass:"fz30"},[_vm._v(_vm._s(_vm.helpUserNum)+" 位好友助力")])])]),_vm._v(" "),_c('tab',{attrs:{"line-width":4,"custom-bar-width":_vm.getBarWidth,"bar-active-color":"#5596FF"}},[_c('tab-item',{attrs:{"selected":_vm.$route.path=='/integralDet/intHistory'}},[_c('router-link',{attrs:{"to":{path:'/integralDet/intHistory'},"replace":""}},[_vm._v("好友助力积分")])],1),_vm._v(" "),_c('tab-item',{attrs:{"selected":_vm.$route.path=='/integralDet/ecHistory'}},[_c('router-link',{attrs:{"to":{path:'/integralDet/ecHistory'},"replace":""}},[_vm._v("兑换记录")])],1)],1)],1),_vm._v(" "),_c('div',{staticClass:"content"},[_c('router-view')],1)])}
+var staticRenderFns = []
+var esExports = { render: render, staticRenderFns: staticRenderFns }
+export default esExports
+
+
+//////////////////
+// WEBPACK FOOTER
+// ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-63411061","hasScoped":false,"transformToRequire":{"video":["src","poster"],"source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vux-loader/src/before-template-compiler-loader.js!./node_modules/vux-loader/src/template-loader.js!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/pages/integral/integralDet.vue
+// module id = null
+// module chunks = 

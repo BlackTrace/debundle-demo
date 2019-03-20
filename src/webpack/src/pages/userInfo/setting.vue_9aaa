@@ -1,0 +1,11 @@
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"setting"},[_c('div',{staticClass:"top"},[_c('div',{staticClass:"mobile"},[_vm._v(_vm._s(_vm.user.mobile))]),_vm._v(" "),_c('img',{staticClass:"headerImg",attrs:{"src":_vm.user.headerImg|| '../../../static/images/me.png'}})]),_vm._v(" "),_c('div',{staticClass:"user_info"},[_c('group',{attrs:{"label-align":"left"}},[_c('cell',{attrs:{"title":"姓名"}},[_vm._v(_vm._s(_vm.user.name||''))]),_vm._v(" "),_c('cell',{attrs:{"title":"性别"}},[_vm._v(_vm._s(_vm.formateInfo.sex))]),_vm._v(" "),_c('cell',{attrs:{"title":"出生日期"}},[_vm._v(_vm._s(_vm.formateInfo.birthday || ''))]),_vm._v(" "),(_vm.user.idCardNo && _vm.user.idCardNo!='')?_c('cell',{attrs:{"title":"身份证"}},[_vm._v(_vm._s(_vm.user.codeIdCardNo))]):_vm._e(),_vm._v(" "),(_vm.user.regionName && _vm.user.regionName!='')?_c('cell',{attrs:{"title":"所在地区"}},[_vm._v(_vm._s(_vm.user.regionName))]):_vm._e(),_vm._v(" "),(_vm.user.address && _vm.user.address!='')?_c('cell',{attrs:{"title":"详细地址"}},[_vm._v(_vm._s(_vm.user.address))]):_vm._e(),_vm._v(" "),_c('cell',{attrs:{"title":"绑定手机","link":"/bindMobile"}},[_vm._v(_vm._s(_vm.user.mobile))])],1)],1)])}
+var staticRenderFns = []
+var esExports = { render: render, staticRenderFns: staticRenderFns }
+export default esExports
+
+
+//////////////////
+// WEBPACK FOOTER
+// ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-6b13ae61","hasScoped":false,"transformToRequire":{"video":["src","poster"],"source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vux-loader/src/before-template-compiler-loader.js!./node_modules/vux-loader/src/template-loader.js!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/pages/userInfo/setting.vue
+// module id = null
+// module chunks = 

@@ -1,0 +1,8 @@
+module.exports = __webpack_public_path__ + "static/img/share.e49dc6b.png";
+
+
+//////////////////
+// WEBPACK FOOTER
+// ./src/assets/share.png
+// module id = az9f
+// module chunks = 1

@@ -1,0 +1,11 @@
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"my_ins"},[(_vm.insList.length!=0)?_c('scroller',{ref:"my_scroller",attrs:{"on-infinite":_vm.loadMore,"no-data-text":"没有更多数据啦~"}},[_c('ul',{staticClass:"list"},_vm._l((_vm.insList),function(ins,index){return _c('li',{key:ins.orderNo,on:{"click":function($event){return _vm.toDetail(ins.partnerUrl)}}},[_c('div',{staticClass:"top"},[_c('div',{staticClass:"vacc"},[_c('span',{staticClass:"name"},[_vm._v(_vm._s(ins.productName))]),_vm._v(" "),(ins.partnerName && ins.partnerName!='')?_c('span',{staticClass:"company"},[_vm._v(_vm._s(ins.partnerName))]):_vm._e()])]),_vm._v(" "),_c('div',{staticClass:"info"},[_c('p',[_vm._v("保单号："+_vm._s(ins.polNo))]),_vm._v(" "),_c('p',[_vm._v("下单日期："+_vm._s(ins.orderDate))]),_vm._v(" "),_c('p',{staticClass:"to_btn"},[_vm._v("查看保单>>")])])])}),0)]):_vm._e(),_vm._v(" "),(_vm.insList.length==0)?_c('div',{staticClass:"no_content"},[_vm._m(0)]):_vm._e()],1)}
+var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"content"},[_c('img',{attrs:{"src":require("../../assets/me_empty.png")}}),_vm._v(" "),_c('p',[_vm._v("暂无保险信息")])])}]
+var esExports = { render: render, staticRenderFns: staticRenderFns }
+export default esExports
+
+
+//////////////////
+// WEBPACK FOOTER
+// ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-d55b2600","hasScoped":false,"transformToRequire":{"video":["src","poster"],"source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vux-loader/src/before-template-compiler-loader.js!./node_modules/vux-loader/src/template-loader.js!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/pages/insurance/myIns.vue
+// module id = null
+// module chunks = 

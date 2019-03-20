@@ -1,0 +1,11 @@
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"my_tickets"},[_c('div',{staticClass:"banner"},[_c('img',{staticClass:"header",attrs:{"src":_vm.user.headerImg || '../../../static/images/me.png'}}),_vm._v(" "),_c('p',{staticClass:"nickname"},[_vm._v(_vm._s(_vm.user.name))]),_vm._v(" "),_c('p',{staticClass:"mobile"},[_vm._v(_vm._s(_vm.user.mobile))])]),_vm._v(" "),(_vm.myTickets.length>0)?_c('div',[_c('div',{staticClass:"tickets"},[(_vm.myTickets.length>0)?_c('ul',_vm._l((_vm.myTickets),function(ticket,index){return _c('li',{class:ticket.isUsed==1?'unable':''},[_c('span',[_vm._v("第"+_vm._s(ticket.activityNo)+"期")])])}),0):_vm._e(),_vm._v(" "),_c('img',{staticClass:"rule_img",attrs:{"src":require("../../assets/ticket_rule.png"),"alt":""}})]),_vm._v(" "),_vm._m(0)]):_c('div',{staticClass:"no_tickets"},[_vm._m(1)])])}
+var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"qr_code"},[_c('img',{attrs:{"src":require("../../assets/ticket_qr.png")}}),_vm._v(" "),_c('p',[_vm._v("长按识别“疫苗小助手”")])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"content"},[_c('img',{attrs:{"src":require("../../assets/me_empty.png")}}),_vm._v(" "),_c('p',[_vm._v("您还没有优惠券")])])}]
+var esExports = { render: render, staticRenderFns: staticRenderFns }
+export default esExports
+
+
+//////////////////
+// WEBPACK FOOTER
+// ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-20bd6654","hasScoped":false,"transformToRequire":{"video":["src","poster"],"source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vux-loader/src/before-template-compiler-loader.js!./node_modules/vux-loader/src/template-loader.js!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/pages/myTickets/myTickets.vue
+// module id = null
+// module chunks = 

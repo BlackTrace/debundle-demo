@@ -1,0 +1,8 @@
+module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADQAAAA0CAMAAADypuvZAAAAhFBMVEUAAACws7yzs72ztL6xtL2xtLz///+xtLyxtLy3vMSxtLy/v8DDxcextL2xs7yxtL+xtb6xtLyztryztb+4uMa3vcWytL2ws72zs76ytL2ytb2zs7yxs72xs7yztL6ztr+ztb6xtL2xtL2xtb6ztr7p6emwtL2xtL2xtL2ytL2ztL+ws7x1EPhkAAAAK3RSTlMA7DMv7voCnfEUyg8J9c9fOOGCKxINY7xKd2o/2YxFJBzCtXBNA+OqppRW3WqqeQAAAbFJREFUSMfN1G9PszAUBfBLRwvd6CZOlGfsn27TR8/3/37C7aAjxLaamHjekfDjHi6k9GuZrYpvGy0xX/wA/UA9IlrdnfStShZxpbbH/iIDsIxQVQ6UgjgrILLhWQJS9KaMVBuwYrN8eIxqOEvAypp+G2FjOnU19BBsyCYV98BglgCrkCFi1fQm61ThN/0XksKaFb/XKmjsLNlY025DypnfOIVhgtZBc+mVaxU0L+lpaCgizRHAP7eNsLGTWLlZMYaKp7ByZqKEAVAeI4xTIkWXrQ4ap95bk2wkcJqY9diotVOtmdE5l3eTQ6Ecz3nCc8Vqbg1RNW33H8hvjEqAeav4fb764QSAmp981u60q9ikttY078DbdWJu79l0qkm52xd5Bey9L7hV0mcWQK6GJTrlM3QAtmTjlDC8Ax9KaKx4B6b2ncIAjmMlfDvgFAbY0UjlIUM7AEaNVNBU6PJMQz4AGL+hBlap3uSA3JM/e9iYnSZS+7dQN47GkPLVoM12TaGoEuNkRdhkuCbnw+D+QHGGZ+2Ky0FfiCJNpvS+qYgTb6jNnzNUe4wHfd+Qqms2v51PW8BN5YcafdcAAAAASUVORK5CYII="
+
+
+//////////////////
+// WEBPACK FOOTER
+// ./src/assets/tab_appointment_s.png
+// module id = GInK
+// module chunks = 1

@@ -1,0 +1,11 @@
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"vaccine_detail_wrap"},[_c('div',{staticClass:"vaccine_detail"},[_c('h1',{staticClass:"title"},[_vm._v(_vm._s(_vm.vaccineDetail.name))]),_vm._v(" "),_c('section',[_c('pre',{domProps:{"innerHTML":_vm._s(_vm.vaccineDetail.describtion)}})])]),_vm._v(" "),_c('div',[(_vm.vaccineDetail.isArriveVaccine==1 && (_vm.vaccineDetail.total - _vm.vaccineDetail.subscribed > 0))?_c('a',{staticClass:"toSubscribe_btn",attrs:{"href":"javascript:void(0)"},on:{"click":_vm.toSubscribe}},[_vm._v("立即预约")]):_vm._e(),_vm._v(" "),(_vm.vaccineDetail.isArriveVaccine==1 && (_vm.vaccineDetail.total - _vm.vaccineDetail.subscribed <= 0))?_c('a',{staticClass:"toSubscribe_btn unable",attrs:{"href":"javascript:void(0)"},on:{"click":_vm.soldOut}},[_vm._v("立即预约")]):_vm._e(),_vm._v(" "),(_vm.vaccineDetail.isArriveVaccine==0)?_c('a',{staticClass:"toSubscribe_btn",attrs:{"href":"javascript:void(0)"},on:{"click":_vm.noticeOfArrival}},[_vm._v("订阅到苗通知")]):_vm._e()])])}
+var staticRenderFns = []
+var esExports = { render: render, staticRenderFns: staticRenderFns }
+export default esExports
+
+
+//////////////////
+// WEBPACK FOOTER
+// ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-32ed6ade","hasScoped":false,"transformToRequire":{"video":["src","poster"],"source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vux-loader/src/before-template-compiler-loader.js!./node_modules/vux-loader/src/template-loader.js!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/pages/vaccine/vaccine.vue
+// module id = null
+// module chunks = 
